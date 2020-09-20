@@ -5,6 +5,9 @@
   "repository": "https://github.com/kinoko109/typescript-tutolial.git",
   "author": "matsuoka",
   "license": "MIT",
+  "scripts": {
+    "ts-dev": "ts-node-dev --respawn"
+  },
   "devDependencies": {
     "ts-node": "^9.0.0",
     "ts-node-dev": "^1.0.0-pre.62",
