@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/kinoko109/typescript-tutolial.git",
-  "author": "松岡龍紀 <tatsuaki_matsuoka@bita.jp>",
-  "license": "MIT"
+  "author": "matsuoka",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  }
 }
