@@ -1,5 +1,5 @@
 type hoge = string;
 
-const hoge = "ほげ";
+const test: hoge = "テスト";
 
-console.log(hoge);
+console.log(test);
