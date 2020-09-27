@@ -30,12 +30,13 @@ hoge = fooStringLiteral;
 // 型の互換性あり
 interface Animal {
   // age: number;
+  name: string;
 }
 
 class Person {
-  constructor(public age: number) {}
+  constructor(public age: number, public name: string) {}
 }
 
 let me: Animal;
 
-me = new Person(24);
+me = new Person(24, "ほげ");
